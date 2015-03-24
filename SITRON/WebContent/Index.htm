@@ -1,0 +1,135 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script type="text/javascript" language="JavaScript">
+	
+</script>
+<link href="global_ie.css" rel="STYLESHEET" type="text/css">
+<link href="gft.css" rel="STYLESHEET" type="text/css">
+
+<title>GFT - Simulador de Transações Online</title>
+
+<link type="text/css" rel="stylesheet" href="cas.css">
+<script type="text/javascript" src="common_rosters.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="shortcut icon.ico">
+<link rel="stylesheet"
+	href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="/resources/demos/style.css">
+
+<script>
+	$(function() {
+		$("#tabs").tabs();
+		$("#listar").click(function(){
+			$("#tabs-2 iframe").attr("src", "listar_transacoes.jsp");
+		});
+	});
+				
+</script>
+
+</head>
+<body id="cas" onload="init();" class="fl-theme-iphone">
+	<div class="flc-screenNavigator-view-container">
+		<div class="fl-screenNavigator-view">
+			<div id="content" class="fl-screenNavigator-scroll-container">
+
+
+				<div id="centered">
+					<table id="container-main" border="0" cellpadding="0"
+						cellspacing="0" height="100%">
+						<tbody>
+							<tr height="100%" valign="top">
+								<td height="100%" valign="top" width="10">
+
+									<table border="0" cellpadding="0" cellspacing="0" height="100%"
+										width="0">
+
+										<td class="navBody" height="600" valign="top">
+
+											<table id="menuContainer" align="left" border="0"
+												cellpadding="0" cellspacing="0" height="100%" width="100%">
+
+
+											</table>
+										</td>
+
+									</table>
+								</td>
+
+								<td height="100%" valign="top">
+									<table border="0" cellpadding="0" cellspacing="0" height="100%"
+										width="100%">
+										<tbody>
+
+											<td>
+												<table border="0" cellpadding="0" cellspacing="0"
+													width="100%">
+
+													<tbody>
+
+													</tbody>
+												</table>
+											</td>
+
+											<tr class="hideonprint" height="15">
+												<td bgcolor="#FFFFFF" width="100%"></td>
+											</tr>
+
+											<td class="navTopRight" align="right" width="100%"><span
+												class="logo"></span></td>
+
+											<tr id="container-menu-level4" class="hideonprint"
+												height="35" width="100%">
+												<td></td>
+											</tr>
+
+											<td height="100%" valign="top">
+												<!-- center contents -->
+
+
+
+												<div id="tabs">
+													<ul>
+														<li><a href="#tabs-1"><h2>Cadastrar Transação</h2></a></li>
+														<li><a href="#tabs-2" id="listar"><h2>Listar Transações</h2></a></li>
+														<li><a href="#tabs-3"><h2>Buscar Transação</h2></a></li>
+													</ul>
+													<div id="tabs-1">
+														<iframe src="incluir_editar_consultar.jsp" width="100%"	height="730" frameborder="0"></iframe>
+													</div>
+													<div id="tabs-2">
+														<iframe src=""  width="100%" height="730" frameborder="0"></iframe>
+													</div>
+													<div id="tabs-3">
+														<iframe src="buscar_transacao.jsp" width="100%" height="730" frameborder="0"></iframe>
+													</div>
+												</div>
+										<tbody>
+											<tr valign="top">
+												<td valign="top" width="100%">
+													<table border="0" cellpadding="0" cellspacing="0"
+														width="100%">
+														<tbody>
+															<tr>
+																<td></td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

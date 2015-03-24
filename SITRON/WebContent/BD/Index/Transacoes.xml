@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transacoes>
+  <Transacao ID="Teste 110">
+    <Nome>Teste 110</Nome>
+    <Descricao>sd</Descricao>
+    <Situacao>Ativo</Situacao>
+    <Path_Request>C:\Users\ceda\workspace\SITRON\WebContent\BD\Request\Teste 110_req.xml</Path_Request>
+    <Path_Response>C:\Users\ceda\workspace\SITRON\WebContent\BD\Response\Teste 110_resp.xml</Path_Response>
+  </Transacao>
+  <Transacao ID="Teste 4">
+    <Nome>Teste 4</Nome>
+    <Descricao>sdgbxvc</Descricao>
+    <Situacao>Ativo</Situacao>
+    <Path_Request>C:\Users\ceda\workspace\SITRON\WebContent\BD\Request\Teste 4_req.xml</Path_Request>
+    <Path_Response>C:\Users\ceda\workspace\SITRON\WebContent\BD\Response\Teste 4_resp.xml</Path_Response>
+  </Transacao>
+  <Transacao ID="Teste 1">
+    <Nome>Teste 1</Nome>
+    <Descricao>Testando</Descricao>
+    <Situacao>Desativado</Situacao>
+    <Path_Request>C:\Users\ceda\workspace\SITRON\WebContent\BD\Request\Teste 1_req.xml</Path_Request>
+    <Path_Response>C:\Users\ceda\workspace\SITRON\WebContent\BD\Response\Teste 1_resp.xml</Path_Response>
+  </Transacao>
+  <Transacao ID="Teste 2">
+    <Nome>Teste 2</Nome>
+    <Descricao>Testando</Descricao>
+    <Situacao>Ativo</Situacao>
+    <Path_Request>C:\Users\ceda\workspace\SITRON\WebContent\BD\Request\Teste 2_req.xml</Path_Request>
+    <Path_Response>C:\Users\ceda\workspace\SITRON\WebContent\BD\Response\Teste 2_resp.xml</Path_Response>
+  </Transacao>
+  <Transacao ID="Teste Real">
+    <Nome>Teste Real</Nome>
+    <Descricao>Testando XML Real</Descricao>
+    <Situacao>Ativo</Situacao>
+    <Path_Request>C:\Users\ceda\workspace\SITRON\WebContent\BD\Request\Teste Real_req.xml</Path_Request>
+    <Path_Response>C:\Users\ceda\workspace\SITRON\WebContent\BD\Response\Teste Real_resp.xml</Path_Response>
+  </Transacao>
+</Transacoes>

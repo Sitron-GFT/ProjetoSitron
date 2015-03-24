@@ -1,0 +1,416 @@
+/* -----------------------------------------------------
+ globale gemeinsame Merkmale
+ -----------------------------------------------------*/
+
+p, li {
+	font-size:8pt;
+	line-height:10pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	text-decoration:none;
+	text-transform:none;
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+
+alt {
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	}
+
+/* -----------------------------------------------------
+ Body
+ -----------------------------------------------------*/
+
+
+body {
+	background-color:#ffffff;
+	margin:0px;
+	}
+
+
+
+/* -----------------------------------------------------
+ Standardtextabsaetze
+ -----------------------------------------------------*/
+
+
+br {
+	margin-top:0px;
+	}
+
+b {
+	font-size:8pt;
+	line-height:10pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	text-decoration:none;
+	margin-top:5px;
+	margin-bottom:11px;
+	font-style:normal;
+	font-weight:bold;
+	padding-left:1px;
+	}
+
+p.normal {
+	margin-bottom:5px;
+	font-weight:normal;
+	margin-top:0px;
+	padding-left:1px;
+	}
+
+p.greybox {
+	margin-bottom:4px;
+	font-weight:normal;
+	margin-top:0px;
+	}
+
+p.bold	{
+	margin-bottom:5px;
+	font-weight:bold;
+	margin-top:0px;
+	padding-left:1px;
+	}
+
+p.title {
+	font-size:9pt;
+	line-height:11pt;
+	color:#000000;
+	margin-bottom:11px;
+	margin-top:0px;
+	font-weight:bold;
+	padding-left:1px;
+	}
+
+p.listnav {
+	font-size:8pt;
+	line-height:10pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	text-decoration:none;
+	margin-top:0px;
+	margin-bottom:4px;
+	font-style:normal;
+	}
+
+
+
+ol{
+	margin-top:4px;
+	margin-bottom:0px;
+	text-indent:2px;
+	list-style-type:decimal;
+	}
+
+
+
+ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	list-style-image:url('square.gif');
+	}
+
+
+li {
+	font-size:8pt;
+	line-height:10pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	text-decoration:none;
+	text-transform:none;
+	color:#000000;
+	list-style-position:outside;
+	margin-left:-19px;
+	}
+
+/* -----------------------------------------------------
+ Pfeillink
+ -----------------------------------------------------
+
+
+ rechtsbuendig
+ -----------------------------------------------------*/
+
+
+div.arrowlink {
+	text-align:right;
+	vertical-align:bottom;
+	font-size:8pt;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-right:0px;
+	margin-bottom:0px;
+	}
+
+
+
+/* -----------------------------------------------------
+ Applet
+ -----------------------------------------------------*/
+
+
+div.applet {
+	text-align:right;
+	vertical-align:middle;
+	margin-right:0px;
+	margin-bottom:-12px;
+	margin-top:-7px;
+	}
+
+
+#select_country {
+	width:144px;
+	height:30px;
+	z-index:1;
+	left: 16px;
+	top: 40px;
+	}
+
+
+/* -----------------------------------------------------
+ Links
+ -----------------------------------------------------*/
+
+
+a, a:link {
+	cursor:hand;
+	font-size:8pt;
+	color:#003399;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:0px;
+	line-height:14px;
+	text-decoration:underline;
+	}
+
+a:active, a:hover {
+	font-weight:normal;
+	cursor:hand;
+	font-size:8pt;
+	color:#003399;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:0px;
+	line-height:14px;
+	text-decoration:underline;
+	}
+
+a.bold, a.bold:link {
+	font-size:8pt;
+	line-height:10pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	text-decoration:none;
+	margin-bottom:0px;
+	line-height:14px;
+	font-style:normal;
+	font-weight:normal;
+	color:#000000;
+	}
+
+a.bold:active, a.bold:hover {
+	font-size:8pt;
+	line-height:10pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	text-decoration:none;
+	margin-bottom:0px;
+	line-height:14px;
+	font-style:normal;
+	font-weight:bold;
+	color:#000000;
+	}
+
+
+/* -----------------------------------------------------
+ Tables
+ -----------------------------------------------------*/
+
+
+table {
+	margin:0px;
+	}
+
+td {
+	font-size:8pt;
+	line-height:10pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	text-decoration:none;
+	text-transform:none;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+	}
+
+
+/* -----------------------------------------------------
+ Other
+ -----------------------------------------------------
+
+
+ Horizontale Rule 1
+ -----------------------------------------------------*/
+
+hr {
+	color:#999999;
+	text-align:left;
+	margin-bottom:-8px;
+	margin-top:-8px;
+	}
+
+/* Horizontale Rule 2
+ -----------------------------------------------------*/
+
+hr.stockticker {
+	color:#999999;
+	margin-bottom:2px;
+	margin-top:2px;
+	margin-left:0px;
+	margin-right:0px;
+	border:0px;
+	text-align:left;
+	}
+
+
+/* Horizontale Rule 3
+ -----------------------------------------------------*/
+
+hr.white {
+	color:#FFFFFF;
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	vertical-align:bottom;
+	border:0px;
+	}
+
+
+/* Horizontale Rule 4
+ -----------------------------------------------------*/
+
+hr.Form {
+	color:#999999;
+	margin-bottom:0px;
+	margin-top:-1px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	vertical-align:bottom;
+
+	}
+
+
+/* Horizontale Rule 5
+ -----------------------------------------------------*/
+
+hr.table {
+	color:#999999;
+	margin-bottom:-2px;
+	margin-top:-2px;
+	margin-left:-1px;
+	margin-right:0px;
+	border:0px;
+	text-align:left;
+	}
+
+
+/* Horizontale Rule 6
+ -----------------------------------------------------*/
+
+hr.search {
+	color:#999999;
+	margin-bottom:-10px;
+	border:0px;
+	}
+
+
+
+/* --------------------------------------------------------- */
+
+
+.formText {
+	font-size:8pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	color:#000000;
+	HEIGHT: 17px;
+	WIDTH: 144px;
+	border-width:1px;
+	border-color:#999999;
+	border-style: solid;
+	margin-top:0px;
+	margin-bottom:-1px;
+	margin-left:0px;
+	}
+
+
+.formRadio {
+	font-size:8pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	line-height:8pt;
+	color:#000000;
+	align:left;
+	margin-left:-2px;
+	margin-top:0px;
+	margin-bottom:-2px;
+	margin-right:-3px;
+	}
+
+
+.formCheckbox {
+	font-size:8pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	line-height:8pt;
+	color:#000000;
+	align:left;
+	margin-left:-1px;
+	margin-top:3px;
+	margin-bottom:0px;
+	margin-right:0px;
+	}
+
+.formSelect {
+	font-size:8pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	color:#000000;
+	HEIGHT: 17px;
+	WIDTH: 144px;
+	border-width: thin;
+	border-style: solid;
+	margin-top:0px;
+	margin-left:0px;
+	margin-bottom:0px;
+	vertical-align:bottom;
+	}
+
+
+.formTitleOptional {
+	font-size:8pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	color:#999999;
+	margin-top:5px;
+	margin-bottom:0px;
+	margin-left:0px;
+	vertical-align:bottom;
+	line-height:8pt;
+	}
+
+
+.formTitleRequired {
+	font-size:8pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	color:#000000;
+	margin-top:5px;
+	margin-bottom:0px;
+	margin-left:0px;
+	vertical-align:bottom;
+	line-height:8pt;
+	}
+
+
+.formFile {
+	font-size:8pt;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	color:#000000;
+	HEIGHT: 17px;
+	WIDTH: 144px;
+	border-width:1px;
+	border-color:#999999;
+	border-style: solid;
+	margin-top:0px;
+	margin-bottom:-1px;
+	margin-left:0px;
+	}
+	
